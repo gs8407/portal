@@ -1,0 +1,311 @@
+@import url('//fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('//fonts.googleapis.com/css?family=Montserrat:500');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+a, a:hover {
+    color: #70c1b3;
+}
+
+nav.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 0;
+    background-color: #ffffff;
+}
+
+.navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #70c1b3;
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #70c1b3;
+}
+
+.navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: transparent;
+}
+
+a.navbar-brand {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: table;
+    line-height: 20px;
+}
+
+.jumbotron {
+    margin-bottom: 60px;
+    color: #fff;
+    background: #159957; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron.login {
+    background: #5f2c82; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron.home {
+    background: #6e45e2; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #88d3ce, #6e45e2); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #88d3ce, #6e45e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron.administrator {
+    background: #30cfd0; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #330867, #30cfd0); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #330867, #30cfd0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron.profile {
+    background: #5f2c82; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron.reset {
+    background: #5f2c82; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron.reset-request {
+    background: #5f2c82; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+#remain {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #777;
+    text-align: right;
+}
+
+.wrapper {
+    padding: 15px;
+    background: #f9f9f9;
+    margin: 15px 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 5px 0px;
+}
+
+section.users {
+    padding-top: 60px;
+}
+
+.manage .table > tbody > tr > td {
+    vertical-align: middle;
+    padding: 20px 10px;
+}
+
+.form-wrapper {
+    padding: 15px 30px;
+    background: #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 5px 0;
+    margin-bottom: 80px;
+}
+
+
+.loader {
+    display: none;
+    padding-left: 15px
+}
+
+.loader img {
+    width: 25px;
+    height: auto;
+}
+
+form#uploadForm {
+    margin-bottom: 25px;
+}
+
+form#uploadForm p {
+    font-weight: 500;
+}
+
+div#targetLayer {
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.account-visibility {
+    display: flex;
+}
+
+.ckbx-style-11 {
+    margin-left: 20px;
+}
+
+.btn-primary {
+    background-color: #70c1b3;
+    border-color: #70c1b3;
+    border-width: 2px;
+    border-radius: 0;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    font-size: 18px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: transparent;
+    border-color: #70c1b3;
+    color: #70c1b3;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    outline: none;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 2px solid #70c1b3;
+    outline: none;
+    padding: 10px 15px;
+    height: auto;
+    font-size: 16px;
+    background: transparent;
+}
+
+.form-control:focus {
+    border-color: #70c1b3;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#uploadForm label {
+    padding: 10px;
+    border: 2px solid #70c1b3;
+    display: table;
+    color: #70c1b3;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#uploadForm label:hover {
+    background: #70c1b3;
+    color: #fff;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#uploadForm input[type="file"] {
+    display: none;
+}
+
+footer {
+    padding: 30px 0;
+    background: #70c1b3;
+    margin-top: 90px;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*==================================================
+=            Media Queries             =
+==================================================*/
+
+
+@media only screen and (max-width: 768px) {
+    .manage .table tr,
+    .manage .table td {
+        display: block;
+    }
+
+    .manage .table > tbody > tr {
+        padding: 20px 0;
+        border-top: 1px solid #ddd;
+    }
+
+    .manage .table > tbody > tr > td {
+        padding: 5px 8px;
+        border: 0;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .jumbotron {
+        margin-bottom: 30px;
+    }
+
+    section.users {
+        padding-top: 30px;
+    }
+
+    .introduction h2 {
+        text-align: center;
+    }
+
+    .wrapper {
+        margin-bottom: 40px;
+    }
+
+    .wrapper h3 {
+        text-align: center;
+    }
+
+    .wrapper img {
+        margin: 10px auto 20px;
+        display: block;
+    }
+
+    .navbar-default .navbar-brand {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: #70c1b3;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
+
+    .form-wrapper {
+        margin-bottom: 30px;
+    }
+}
